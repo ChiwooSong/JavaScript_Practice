@@ -9,8 +9,7 @@
 
 ### 참고자료
 
-- [ ] 생활코딩
-    - https://opentutorials.org/course/3085
+- [x] ~~생활코딩 WEB2 - JavaScript : https://opentutorials.org/course/3085~~
 
 ---
 
@@ -20,6 +19,5 @@
 
 ### 참고자료
 
-- [ ] 생활코딩
-    - https://opentutorials.org/course/3332
+- [ ] 생활코딩 WEB2 - Node.js : https://opentutorials.org/course/3332
 
