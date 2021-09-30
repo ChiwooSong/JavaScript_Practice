@@ -11,7 +11,7 @@ function templateHTML(title, list, body){
       <meta charset="utf-8">
     </head>
     <body>
-      <h1><a href="/">WEB</a></h1>
+      <h1><a href="/">WEB2</a></h1>
       ${list}
       ${body}
     </body>
@@ -51,8 +51,9 @@ var app = http.createServer(function(request, response){
       fs.readdir('../data', function(error, filelist){
         fs.readFile(`../data/${queryData.id}`, 'utf-8', function(err, description){
           var title = queryData.id
-          var template = templateHTML(title, list, `<h2>${title}</h2>${description}`)
           list = templateList(filelist)
+          var template = templateHTML(title, list, `<h2>${title}</h2>${description}`)
+          
         response.writeHead(200)
         response.end(template)
         })
